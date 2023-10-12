@@ -31,9 +31,12 @@ options:
                         specify the explorer ex: etherscan
   --projectname PROJECTNAME, -p PROJECTNAME
                         specify the name of the project as mentioned in immunefi ex: thegraph
+  --out [OUT], -o [OUT]
+                        to specify the output directory(optional)
+
 
 Example:
-    python3.11 DownloadContracts.py -e etherscan -p thegraph #foldername(optional)
+    python3.11 DownloadContracts.py -e etherscan -p thegraph -o #foldername(optional)
 
 ```
 
