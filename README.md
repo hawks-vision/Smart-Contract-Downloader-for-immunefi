@@ -1,6 +1,8 @@
 # Smart-Contract-Downloader-for-immunefi
 This contains a simple python script which helps you in downloading complete set of contracts from a specified immunefi project.
 
+# Additinal feature
+This is capable of creating a mindmap using the provided Rscript. Rscript installation required.
 
 
 
