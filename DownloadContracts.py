@@ -28,8 +28,12 @@ def DownloadingSmartContracts():
         # print(args.out)
         os.system('ethereum-sources-downloader ' + args.explorer +' '+ head+ ' ' +args.out)
 
+def CreatingMindMap():
+    os.system('Rscript ./tree_To_mindMap.R' + ' ' +args.out)
+    os.system('mv ./file*.mm ./'+args.out+'/'+args.out+'.mm')
 
 
 
 extractingContractLinks()
 DownloadingSmartContracts()
+CreatingMindMap()
